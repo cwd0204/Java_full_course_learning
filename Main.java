@@ -10,6 +10,7 @@ public class Main {
         String name = scanner.nextLine();
         System.out.println('how old are you ?');
         int age = scanner.nextLine();
+        scanner.nextLine();
         System.out.println('what is your favorite food ?');
         String food  = scanner.nextLine();
 
@@ -17,6 +18,17 @@ public class Main {
         System.out.println('hello '+ name );
         System.out.println('you are '+ age + 'years old');
         System.out.println('you are like ' + food);
+
+        int friends = 10;
+        friends--;
+        System.out.println(friends);
+        friends++;
+        System.out.println(friends);
     }
 
 }
+
+
+
+
+
